@@ -7,10 +7,14 @@
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
 }
-
+#menu-bar{
+    display: none;
+    width: 20px;
+}
 /*---header styles here---*/
 header {
-    padding: 40px 100px;
+    padding: 40px 130px;
+
 }
 
 nav {
@@ -39,7 +43,7 @@ nav {
     color: #FF5400;
 }
 
-nav>ul {
+nav > ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,14 +54,86 @@ nav li {
     margin-right: 40px;
 }
 
+nav li:last-child {
+    margin-right: 0;
+}
+
 nav li a {
     text-decoration: none;
     color: #424247;
     font-size: 0.9rem;
     font-weight: 400;
 }
-nav li a.active{
+
+nav li a.active {
     color: #FF5400;
 }
-/*--banner starts here---*/
 
+/*--banner starts here---*/
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+        url('../images/banner-img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content h1 {
+    color: #FFF;
+    font-size: 3.2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-content p {
+    width: 530px;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 30px 0;
+}
+form{
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+
+}
+form input, select, button{
+    width: 130px;
+    border-radius: 5px;
+    color: rgba(19,19,24, 0.50);
+    background: #fff;
+    font-weight: 400;
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+form input{
+    color: rgba(19, 19, 24, 0.80);
+}
+form button{
+   background: #FF5400;
+   color: #fff;
+   display: flex;
+   align-items: center;
+}
+form button i{
+    margin-right: 8px;
+    font-size: 12px;
+}

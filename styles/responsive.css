@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px){
+    header{
+        padding: 20px;
+    }
+    nav > ul{
+        display: none;
+    }
+    #menu-bar{
+        display: block;
+    }
+    .nav-logo img{
+        width: 25px;
+    }
+    .nav-logo h3 {
+        font-size: 1rem;
+    }
+    .banner{
+        width: 100%;
+        margin-top: 10px;
+    
+    }
+    .banner-content h1 {
+        font-size: 1.2rem;
+
+    }
+    .banner-content p{
+        width: 280px;
+        font-size: 0.7rem;
+        line-height: 18px;
+        margin: 10px auto;
+    }
+    form{
+        width: 90%;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    form input, select, button{
+        width: 80%;
+        margin: 10px auto;
+    }
+}
