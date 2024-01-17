@@ -1,6 +1,6 @@
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 600px){
     .container{
-        padding: 20px;
+        margin: 20px;
     }
     nav > ul{
         display: none;
@@ -39,11 +39,15 @@
     }
     .popular-cover-container{
         flex-direction: column;
-
+        margin-left: -5px;
     }
     .popular-content{
         flex-basis: 100%;
-   
+        padding: 0 10px;
+    }
+    .popular-content .section-text{
+        width: 420px;
+        flex-wrap: wrap;
     }
     .popular-img-container {
         flex-basis: 100%;
@@ -96,25 +100,86 @@
         grid-column: 1/ 2;
         grid-row: 7/ 8;
     }
+    .middle-text{
+        bottom: 50%;
+        right: 50%;
+        transform: translate(50%, 50%);
+        font-size: 1rem;
+    }
+    .facilities-content .section-text{
+        text-align: center;
+        width: 250px;
+    }
+    .facilities-card{
+        flex-direction: column;
+    }
+    .card, .card-2, .card-3{
+        flex-basis: 80%;
+    }
+    .card, .card-2{
+        margin-bottom: 15px;
+    }
+    .card-3{
+        margin-top: -5px
+    }
+    .newsletter-content {
+       flex-direction: column;
+       
+    }
+    .newsletter-updates{
+       flex-basis: 100%;
+       width: 400px;
+    }
+    .newsletter-img{
+        flex-basis: 100%;
+        margin-top: 10px;
+    }
+    .signin-form{
+        width: 100%;
+    }
+    .signin-form input{
+        width: 100%;
+    }
+    .signin-form button{
+        width: 100%;
+    }
+    .travel-discount{
+        width: 42%;
+        bottom: 12%;
+    }
+    .travel-discount p{
+        font-size: 0.6rem;
+    }
+    .travel-discount h6{
+        font-size: 1rem;
+    }
+    footer p{
+        font-size: 0.7rem;
+        text-align: center;
+        width: 300px;
+        padding: 0px 30px;
+    }
+    .customer-item{
+        flex-direction: column;
+    }
+    .customer-item-card{
+        flex-basis: 90%;
+        margin-bottom: 15px;
+    }
+    .customer-item-card p{
+        font-size: 0.6rem;
+        line-height: 16px;
+    }
+    .brand-ambassador-feedback{
+        margin-top: -20px;
+    }
+    .ambassador-feedback{
+        width: 100%;
+    }
+    .ambassador-feedback p{
+        font-size: 0.6rem;
+        line-height: 20px;
+    }
+   
+    
 }
-/*@media only screen and (min-width: 576px) and (max-width: 878px) {
-    .container{
-        padding: 40px;
-    }
-    .nav-logo h3 {
-        font-size: 1.1rem;
-    }
-    .banner-content h1 {
-        font-size: 2rem;
-    }
-    form{
-        width: 80%;
-    }
-    form input, select, button{
-        width: 75%;
-        margin: 8px auto;
-    }
-    nav li {
-        margin-right: 15px;
-    }
-}*/
