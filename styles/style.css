@@ -21,13 +21,13 @@
 }
 
 .section-text {
-    width: 90%;
+    width: 100%;
     color: rgba(19, 19, 24, 0.70);
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 1;
-    text-align: center;
+    margin: 0px auto;
 }
 
 .btn-primary {
@@ -224,7 +224,9 @@ form button i {
     justify-content: center;
     align-items: center;
 }
-
+.description-content .section-text{
+    text-align: center;
+}
 .destination-img-container {
     max-width: 1440px;
     margin-top: 40px;
@@ -297,7 +299,9 @@ form button i {
     align-items: center;
     margin-top: 25px;
 }
-
+.facilities-content .section-text{
+    text-align: center;
+}
 .facilities-card .card {
     flex-basis: 48%;
     border-radius: 16px;
@@ -530,7 +534,7 @@ footer {
     padding: 60px 40px;
 }
 
-footer.section-text {
+footer .section-text {
     text-align: center;
 }
 
